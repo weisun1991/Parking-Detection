@@ -22,7 +22,7 @@ namespace TruckParkingProject
             TimelineChart = 4
         }
         ChartTypes TypeOfChart = ChartTypes.ExactTimeChart;
-        //SwashStatistics_ChartingControl.ctrlDistributionDisplay ctrlDistributionDisplay1 = new SwashStatistics_ChartingControl.ctrlDistributionDisplay();
+        SwashStatistics_ChartingControl.ctrlDistributionDisplay ctrlDistributionDisplay1 = new SwashStatistics_ChartingControl.ctrlDistributionDisplay();
         List<TruckParkingRecord> TruckRecords = new List<TruckParkingRecord>();
         List<double> xValueList = new List<double>();
         List<double> yValueList = new List<double>();
